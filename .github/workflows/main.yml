@@ -9,7 +9,7 @@ jobs:
     name: Deploy Archi report HTML to GitHub Pages
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Deploy Archi report
         id: archi
